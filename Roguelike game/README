@@ -1,0 +1,60 @@
+Yussef Saleh
+
+This is an Over the course of the semester, building a Roguelike game using ASCII graphics. Two iconic modern
+examples of such games are Angband and NetHack. 
+
+* Use make to build the game. Then run the game by ./rlg327
+* Key(s) : Action
+
+ 7 or y : Attempt to move PC one cell to the upper left.
+
+ 8 or k : Attempt to move PC one cell up.
+
+ 9 or u : Attempt to move PC one cell to the upper right.
+
+ 6 or l : Attempt to move PC one cell to the right.
+
+ 3 or n : Attempt to move PC one cell to the lower right.
+
+ 2 or j : Attempt to move PC one cell down.
+
+ 1 or b : Attempt to move PC one cell to the lower left.
+
+ 4 or h : Attempt to move PC one cell to the left.
+
+ >      :  Attempt to go down stairs. Works only if standing on down staircase.
+
+ <      : Attempt to go up stairs. Works only if standing on up staircase.
+
+ 5 or space : Rest for a turn. NPCs still move.
+
+m       : Display a list of monsters in the dungeon, with their symbol and position relativeto the PC (e.g.: “c, 2 north and 14 west”).
+
+up arrow: When displaying monster list, if entire list does not fit in screen and not currentlyat top of list, scroll list up.
+
+down arrow: When displaying monster list, if entire list does not fit in screen and not currentlyat bottom of list, scroll list down.
+
+escape  : When displaying monster list, return to character control.
+
+Q       : Quit the game.
+
+* Command : Meaning
+
+w : Wear an item.  Prompts the user for a carry slot.  If an item of that type is already equipped, items are swapped.
+
+t : Take off an item. Prompts for equipment slot. Item goes to an open carry slot.
+
+d : Drop an item. Prompts user for carry slot. Item goes to floor.
+
+x : Expunge an item from the game. Prompts the user for a carry slot. Item is perma-nently removed from the .
+
+i : List PC inventory.
+
+e : List PC equipment.
+I : Inspect an item. Prompts user for a carry slot. Item’sdescriptionis displayed.
+
+L : Look at a monster. Enter a targeting mode similar to the controlled teleport in 1.06.Select a visible monster withtor abort with escape
+    (there is no random).  Whena monster is selected, display its description (and other information, if you like).Escape will 
+    return back to normal input processing.
+
+    Enjoy
